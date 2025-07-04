@@ -70,7 +70,7 @@ const Navigation: React.FC = () => {
 
             {user && (
               <div className="flex items-center space-x-2">
-                <span className="text-sm text-gray-600">Welcome, {user.name}</span>
+                <span className="text-sm trun text-gray-600">Welcome, {user.username}</span>
                 <Button
                   variant="ghost"
                   onClick={handleLogout}
